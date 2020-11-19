@@ -1,0 +1,23 @@
+{
+    "name": "enoactic/laravel-pdf",
+    "description": "",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Boonyaphat Intasin",
+            "email": "aosmosiss-ze@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LaravelPDF\\": "src/LaravelPDF"
+        }
+    },
+    "require": {
+        "php": ">=7.1.33",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.0"
+    }
+}
